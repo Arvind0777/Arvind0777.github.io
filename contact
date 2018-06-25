@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal website</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+		<div class="background">
+			<div class="nav">
+				<a class="a " href="personal.html">WHO I AM</a>
+				<a class="b" href="resume.html">RESUME</a>
+				<a class="c active" href="#">CONTACT ME</a>
+			</div>
+			<div class="content">
+				<div class="contact">
+					<a href="https://www.facebook.com/arvind.singh.37?ref=bookmarks">
+						<img src="fb.jpg">
+					</a>
+					<a href="https://www.instagram.com/arvindsingh_7/">
+						<img src="insta.jpg">
+					</a>
+					<a href="arvindsngh504@gmail.com">
+						<img src="gmail.jpg">
+					</a>
+				</div>
+			</div>

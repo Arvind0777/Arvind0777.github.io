@@ -1,0 +1,199 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(me.jpg);
+	height: 25vh;
+	background-size: cover;
+	background-position: center; 
+}
+.main-nav
+{
+	float: right;
+	padding-right: 500px;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a
+{
+	border: 1px  solid white;
+	background-color: darkorange;
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+	background-color: darkorange;
+	transition: all 0.1s ease-in;
+}
+.card{
+    box-shadow: 0 4px 8px 0 	#B0C4DE;
+    transition: 0.3s;
+    width: 150px;
+    height: 240px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card:hover 
+{
+  box-shadow:  0 8px 16px 0 	#B0C4DE;
+}
+
+.container 
+{
+    padding: 2px 16px;
+}
+.content
+{
+	display: flex;
+	border-style: inset;
+	width: 1200px;
+	margin-top: 50px;
+	margin-left: 70px;
+	box-shadow:  0 8px 16px 0 	#778899;
+}
+.info
+{
+	float: right;
+	padding-left: 60px;
+	margin-right: 100px;
+	font-family: century gothic;
+}
+.content:hover 
+{
+  box-shadow:  0 8px 16px 0 	#B0C4DE;
+}
+.project
+{
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: century gothic;
+	justify-content: space-between;
+
+}
+.pro{
+    box-shadow: 0 4px 8px 0 	#B0C4DE;
+    transition: 0.3s;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.text
+{
+	text-align: center;
+	width: 200px;
+	height: auto;
+
+}
+
+.text:hover 
+{
+  box-shadow:  0 8px 16px 0 	#B0C4DE;
+}
+.pro:hover
+{
+  box-shadow:  0 8px 16px 0 	#B0C4DE;
+}
+.two
+{
+    box-shadow: 0 4px 8px 0 	#B0C4DE;
+    transition: 0.3s;
+    width: 200px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 120px;
+}
+.two:hover
+{
+	box-shadow:  0 8px 16px 0 	#B0C4DE;
+}
+.h
+{
+	color: lightblue;
+	margin-left: 80px;
+	margin-top: 50px;
+}
+.sec
+{
+	display: flex;
+	margin-left: 600px;
+	margin-top: 50px;
+}
+.foot
+{
+	font-family: verdana;
+	text-align: center;
+	margin-top: 15px;
+	color: grey;
+	font-size: 13px;
+}
+.insta
+{
+	margin-left: 10px;
+}
+hr
+{
+	height:2px;
+	background-color: lightblue;
+}
+.end
+{
+	margin-bottom: 60px;
+}
+.three
+{
+	box-shadow: 0 4px 8px 0 	#B0C4DE;
+    transition: 0.3s;
+    width: 200px;
+    height: auto;
+    margin-left:140px ;
+    margin-top: 0;
+}
+.three:hover
+{
+	box-shadow:  0 8px 16px 0 	#B0C4DE;
+}
+.fb:hover
+{
+	box-shadow:  0 8px 16px 0 	#B0C4DE;
+}
+.insta:hover
+{
+	box-shadow:  0 8px 16px 0 	#B0C4DE;
+}
+.four
+{
+	box-shadow: 0 4px 8px 0 	#B0C4DE;
+    transition: 0.3s;
+    width: 200px;
+    height: auto;
+    margin-left:130px ;
+    margin-top: 0;
+}
+.four:hover
+{
+	box-shadow:  0 8px 16px 0 	#B0C4DE;
+}
+.three text
+{
+	margin-top: 5px;
+}
+
+
+
